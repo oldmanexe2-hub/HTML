@@ -1,0 +1,152 @@
+1) <!doctype html>
+   <html>
+   <head> 
+    <title>Text Formatting tags</title>
+   </head>
+   <body>
+    br,hr,i,b,mark,strong,sub,sup
+   </body>
+   </html>
+
+
+2) <!doctype html>
+   <html>
+   <head>
+   <title>Table</title>
+   </head>
+   <body>
+     <caption>A test table with merded cells</caption>
+    <table border="1">
+       <tr>
+          <td rowspan="2"></td>
+          <th colspan="2">Average</th>
+          <th rowspan="2">Red Eyes</th>
+       </tr>
+       <tr>
+          <th>height</th>
+          <th>Weight</th>
+       </tr>
+       <tr>
+          <th>Males</th>
+          <td>1.9</td>
+          <td>0.003</td>
+          <td>40%</td>
+       </tr>
+       <tr>
+          <th>Females</th>
+          <td>1.7</td>
+          <td>0.002</td>
+          <td>43%</td>
+       </tr>
+     </table
+     </body>
+     </html>
+
+3) <!doctype html>
+   <html>
+   <head>
+   <title>List</title>
+   </head>
+   <body>
+    <ol>
+       <li>Banana</li>
+       <li>Apple</li>
+          <ol>
+            <li>Green Apple</li>
+            <li>Red Apple</li>
+          </ol>
+        <li>Pineapple</li>
+        <li>Orange</li>
+     </ol>
+    </body>
+    </html>
+
+4) Anchor Tag
+   <a href="" target="_blank"></a>
+   <a href="tel: 9860433669" target="_blank"></a>
+   <a href="email: nischal@gmail.com" target="_blank"></a>
+
+5) <!doctype html>
+   <html>
+    <head>
+     <title>form</title>
+    </head>
+    <body>
+     <form>
+       <table>
+        <tr>
+          <th>Name:</th>
+          <td><input type="text" name="uname"></td>
+        </tr>
+        <tr>
+           <th>Sex:</th>
+           <td>
+             <input type="radio" name="sex" value="uboy">Male
+             <input type="radio" name="sex" value="ugirl">Female
+           </td>
+         </tr>
+         <tr>
+          <th>Country:</th>
+          <td>
+              <select>Select an option
+                  <option>Nepal</option>
+                  <option>India</option>
+                  <option>China</option>
+                  <option>USA</option>
+               </select>
+           </td>
+           </tr>
+           <tr>
+              <th>Message:</th>
+           </tr>
+           <tr>
+            <td></td>
+              <td><textarea type="text" name="umess" rows="5" cols="30"></textarea></td>
+           </tr>
+           <tr>
+            <th><input type="checkbox" name="usub" value="sub">Subscribe?</th>
+           </tr>
+         
+           <tr>
+           <th><button>Submit</button></th></tr>
+          </table>
+          </form>
+         </body>
+         </html>
+        
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    

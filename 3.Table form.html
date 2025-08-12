@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="1" cellpadding="10px" cellspacing="4px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Harry Depp</td>
+            <td colspan="2">28</td>
+        </tr>
+        <tr>
+            <td>John Smith</td>
+            <td>35</td>
+            <td rowspan="2">USA</td>
+        </tr>
+        <tr>
+            <td>Sita</td>
+            <td>19</td>
+        </tr>
+    </table>
+    <hr>
+<form>
+    <label for="a">Enter First Name</label>
+    <input name="fname" type="text" id="a">
+    <hr>
+    <label for="b">Enter Last Name</label>
+    <input name="lname" type="text" id="b">
+    <hr>
+    <label for="c">Enter Age</label>
+    <input name="age" type="number" min="0" max="90" id="c">
+    <hr>
+    <button>Send</button>
+</form>
+</body>
+</html>

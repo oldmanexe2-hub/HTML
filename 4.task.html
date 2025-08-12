@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form>
+        <table cellpaddine="40" cellspacing="20">
+            <tr>
+                <th>First Name</th> 
+                <td><input type="text" name="ufname"></td>
+             </tr>
+             <tr>
+                <th>Last Name</th>
+                <td><input type="text" name="ulname"></td>
+             </tr>
+             <tr>
+                <th>Date Of Birth</th>
+                <td>
+                <select><option>Day</option><option value="">2</option></select>
+                <select><option>Month</option><option value="">2</option></select>
+                <select><option>Year</option><option value="">2</option></select></td>
+                </tr>
+             </tr>
+             <tr>
+                <th>Email ID</th>
+                <td><input type="email" name=uemail></td>
+             </tr>
+             <tr>
+                <th>Mobile Number</th>
+                <td><input type="number" name="uphone" coln="30"></td>
+             </tr>
+             <tr>
+                <th>Gender</th>
+                <td><input type="radio" name="ugender" value="boy">Male
+                <input type="radio" name="ugender" value="boy">Female</td>
+             </tr>
+             <tr>
+                <th>Address</th>
+                <td><textarea type="text" name="uaddress" rows="4" cols="30"></textarea></td>
+             </tr>
+             <tr>
+                <th>Pin Code</th>
+                <td><input type="number" name="upincode"> </td>
+             </tr>
+             <tr>
+                <th>State</th>
+                <td><input type="text" name="ustate"> </td>
+             </tr>
+             <tr>
+                <th>Country</th>
+                <td>
+                    <select>
+                        <option>Nepal</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>Germany</option>
+                        <option>China</option>
+                        <option>Japan</option>
+                    </select>
+                </td>
+             </tr>
+             <tr>
+                <th>Hobbies</th>
+                <td>
+                    <input type="checkbox" name="uhobbies" value="a">Drawing
+                    <input type="checkbox" name="uhobbies" value="b">Singing
+                    <input type="checkbox" name="uhobbies" value="c">Dancing
+                    <input type="checkbox" name="uhobbies" value="d">Sketching
+                    <input type="checkbox" name="uhobbies" value="e"><label for="c">other</label>     <input type="text" name="ifother" id="c">
+                </td>
+             </tr>
+                <tr>
+                    <th>Qualification</th>
+                <td><table cellpadding="20"></td>
+                        <th>S.No</th>
+                        <th>Examination</th>
+                        <th>Boarder</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <td>Class X</td>
+                        <td><input type="text" name="uboard"> </td>
+                        <td><input type="number" name="upersentage"> </td>
+                        <td><input type="number" name="uyearpass"> </td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Class XII</td>
+                        <td><input type="text" name="uboard1"></td>
+                        <td><input type="number" name="upersentage1"></td>
+                        <td><input type="number" name="uyearpass1"></td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>Graduation</td>
+                        <td><input type="text" name="uboard2"></td>
+                        <td><input type="number" name="upersentage2"></td>
+                        <td><input type="number" name="uyearpass2"></td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>Masters</td>
+                        <td><input type="text" name="uboard3"></td>
+                        <td><input type="number" name="upersentage3"></td>
+                        <td><input type="number" name="uyearpass3"></td>
+                    </tr>
+                </table>
+                <tr>
+                    <th>Cources Applied For</th>
+                    <td><input type="radio" name="ucources" value="bca">BCA
+                    <input type="radio" name="ucources" value="bcom">B.Com
+                    <input type="radio" name="ucources" value="bsc">B.Sc
+                    <input type="radio" name="ucources" value="ba">B.A </td>
+                </tr>
+        </table>
+        <button>Submit</button> <button>Reset</button>
+    </form>
+</body>
+</html>
